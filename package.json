@@ -1,0 +1,25 @@
+{
+  "name": "export-lazily",
+  "private": true,
+  "scripts": {
+    "test": "NODE_OPTIONS='--harmony-proxies' meteor test-packages ./ --driver-package dispatch:mocha-browser --port 4000"
+  },
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "moment": "^2.13.0",
+    "slug": "^0.9.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.18.0",
+    "chai": "^3.5.0",
+    "cheerio": "^0.20.0",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.2"
+  }
+}
